@@ -309,7 +309,7 @@ textarea {
 
 header{
     overflow: auto;
-    background: url('../img/bg-top.png') repeat-x;
+    border-top: 10px solid #ECF0F1;
 }
 
 header, footer{
@@ -326,47 +326,43 @@ header, footer{
 header h1{
     display: block;
     text-indent: -90000000px;
-    margin: 40px 0 0 0;
+    margin: 30px 0;
     width: 254px;
     height: 61px;
     background: url('../img/logo-disk-agua-planaltos.png') no-repeat;
     float: left;
 }
 
-.disk{
-    background-color: #2FB6D1;
-    padding: 0 20px;
-    margin: 10px 0 0 0;
-    float: right;
-}
-
-.disk span.shadow{
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: url('../img/shadow.png') no-repeat;
-    position: absolute;
-    top: 10px;
-    right: -18px;
-}
-
-.disk h2{
-    font-size: .8em;
-}
-
-h2 span{
-    display: block;
-    font-size: 2.4em;
-    color: #FFF;
-}
-
 .container{
     margin: 20px 0 0 0;
+    background-color: #19B5FE;
+    height: 500px;
+}
+
+.container .split{
+    width: 50%;
+    float:left;
+}
+
+.container .split h2{
+    font-weight: 100;
+    font-size: 2em;
+    color: #95A5A6;
+}
+
+.container .split ul {
+    list-style: #22A7F0;
+} 
+
+.container .split ul li{
+    font-weight: 100;
+    font-size: 1em;
+    color: #FFF;
 }
 
 .distribuidor{
     clear: both;
-    background-color: #ECF0F1;
+    background-color: #FFF;
     padding: 20px 0;
     overflow: auto;
 }
@@ -388,31 +384,46 @@ h2 span{
 }
 
 footer{
-    background-color: #16AFCA;
+    background-color: #2B3E51;
     color: #FFF;
-    padding: 20px 0;
+    padding: 30px 0;
     overflow: auto;
 }
 
-footer h3{
-    margin: 0 0 20px 0;
-}
-
-address, article, .split{
+footer article {
     width: 50%;
-    float:left;
+    margin-top: 20px;
+    float: left;
 }
 
-address{
-    font-style: normal;
+footer article h3{
+    margin: 20px 0 10px;
+    font-size: 1.4em;
+    font-weight: 100;
+    line-height: 20px;
+    text-indent: 30px;
+    background: no-repeat left center;
 }
 
-article{
-    text-align: right;
+footer article div p,
+footer article div address{
+   padding-left: 30px;
+   font-weight: 100;
+   font-size: 1.1em;
+   font-style: normal;
+   color: #89C4F4;
+   margin: 0;
 }
 
-article p{
-    color: #13687A;
-    font-size: 1.8em;
-    margin: 0;
+footer div.telefones h3{background-image: url('../img/icon-telefone');}
+footer div.horarios h3{background-image: url('../img/icon-horario');}
+footer div.localizacao h3{background-image: url('../img/icon-localizacao');}
+
+footer div.telefones p{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+footer div.mapa{
+    padding-top: 20px;
 }
