@@ -329,6 +329,7 @@ header h1{
     width: 254px;
     height: 65px;
     background: url('../img/logo-disk-agua-planaltos.png') no-repeat;
+    margin: 20px auto;
 }
 
 .container{
