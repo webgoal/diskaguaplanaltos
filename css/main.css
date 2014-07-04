@@ -309,6 +309,7 @@ textarea {
 
 header{
     overflow: auto;
+    background-color: #ECF0F1;
 }
 
 header, footer{
