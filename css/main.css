@@ -351,9 +351,13 @@ header h1{
 }
 
 .container .split ul li{
-    font-weight: 100;
-    font-size: 1.4em;
+    font-weight: 400;
+    font-size: 1.2em;
     color: #2B3E51;
+}
+
+.split img.galoes{
+    margin:20px 0 0 0;
 }
 
 .distribuidor{
