@@ -309,7 +309,7 @@ textarea {
 
 header{
     overflow: auto;
-    border-top: 10px solid #ECF0F1;
+    padding: 5px 0;
 }
 
 header, footer{
@@ -326,17 +326,17 @@ header, footer{
 header h1{
     display: block;
     text-indent: -90000000px;
-    margin: 30px 0;
     width: 254px;
-    height: 61px;
+    height: 65px;
     background: url('../img/logo-disk-agua-planaltos.png') no-repeat;
-    float: left;
 }
 
 .container{
-    margin: 20px 0 0 0;
-    background-color: #19B5FE;
-    height: 500px;
+    background: url('../img/bg-container.jpg') no-repeat center -120px;
+    background-size: cover;
+    min-height: 550px;
+    padding: 40px 0 0 0;
+    overflow: auto;
 }
 
 .container .split{
@@ -347,22 +347,18 @@ header h1{
 .container .split h2{
     font-weight: 100;
     font-size: 2em;
-    color: #95A5A6;
+    color: #2B3E51;
 }
-
-.container .split ul {
-    list-style: #22A7F0;
-} 
 
 .container .split ul li{
     font-weight: 100;
-    font-size: 1em;
-    color: #FFF;
+    font-size: 1.4em;
+    color: #2B3E51;
 }
 
 .distribuidor{
     clear: both;
-    background-color: #FFF;
+    background-color: #EEE;
     padding: 20px 0;
     overflow: auto;
 }
@@ -415,9 +411,9 @@ footer article div address{
    margin: 0;
 }
 
-footer div.telefones h3{background-image: url('../img/icon-telefone');}
-footer div.horarios h3{background-image: url('../img/icon-horario');}
-footer div.localizacao h3{background-image: url('../img/icon-localizacao');}
+footer div.telefones h3{background-image: url('../img/icon-telefone.png');}
+footer div.horarios h3{background-image: url('../img/icon-horario.png');}
+footer div.localizacao h3{background-image: url('../img/icon-localizacao.png');}
 
 footer div.telefones p{
     font-size: 1.5em;
