@@ -309,7 +309,7 @@ textarea {
 
 header{
     overflow: auto;
-    background-color: #ECF0F1;
+    background: url('../img/bg-top.png') repeat-x;
 }
 
 header, footer{
@@ -326,7 +326,7 @@ header, footer{
 header h1{
     display: block;
     text-indent: -90000000px;
-    margin: 30px 0 0 0;
+    margin: 40px 0 0 0;
     width: 254px;
     height: 61px;
     background: url('../img/logo-disk-agua-planaltos.png') no-repeat;
@@ -336,8 +336,18 @@ header h1{
 .disk{
     background-color: #2FB6D1;
     padding: 0 20px;
-    margin: 0;
+    margin: 10px 0 0 0;
     float: right;
+}
+
+.disk span.shadow{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../img/shadow.png') no-repeat;
+    position: absolute;
+    top: 10px;
+    right: -18px;
 }
 
 .disk h2{
@@ -358,13 +368,22 @@ h2 span{
     clear: both;
     background-color: #ECF0F1;
     padding: 20px 0;
+    overflow: auto;
 }
 
-.distribuidor img{
-    margin: 0 75px 0 0;
+.distribuidor ul{
+    padding: 0;
+    margin: 0;
 }
 
-.distribuidor img:last-child{
+.distribuidor li{
+    list-style: none;
+    float: left;
+    margin: 0 104px 0 0;
+    line-height: 100px;
+}
+
+.distribuidor li:last-child{
     margin-right: 0;
 }
 
