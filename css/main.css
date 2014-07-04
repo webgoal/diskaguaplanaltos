@@ -307,31 +307,92 @@ textarea {
 
 /*nosso*/
 
-header, footer, .content{
-    width: 940px;
-    margin: 0 auto;
-    position: relative;
+header{
     overflow: auto;
 }
 
-h1 a{
+header, footer{
     display: block;
+    clear: both;
+}
+
+.content{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header h1{
+    display: block;
+    text-indent: -90000000px;
+    margin: 30px 0 0 0;
     width: 254px;
     height: 61px;
     background: url('../img/logo-disk-agua-planaltos.png') no-repeat;
-    text-indent: -90000000px;
     float: left;
 }
 
-h2{
+.disk{
     background-color: #2FB6D1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 20px;
+    padding: 0 20px;
     margin: 0;
+    float: right;
+}
+
+.disk h2{
+    font-size: .8em;
 }
 
 h2 span{
     display: block;
+    font-size: 2.4em;
+    color: #FFF;
+}
+
+.container{
+    margin: 20px 0 0 0;
+}
+
+.distribuidor{
+    clear: both;
+    background-color: #ECF0F1;
+    padding: 20px 0;
+}
+
+.distribuidor img{
+    margin: 0 75px 0 0;
+}
+
+.distribuidor img:last-child{
+    margin-right: 0;
+}
+
+footer{
+    background-color: #16AFCA;
+    color: #FFF;
+    padding: 20px 0;
+    overflow: auto;
+}
+
+footer h3{
+    margin: 0 0 20px 0;
+}
+
+address, article, .split{
+    width: 50%;
+    float:left;
+}
+
+address{
+    font-style: normal;
+}
+
+article{
+    text-align: right;
+}
+
+article p{
+    color: #13687A;
+    font-size: 1.8em;
+    margin: 0;
 }
